@@ -1,0 +1,16 @@
+body {
+    background-color: antiquewhite;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p {
+    text-indent: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
