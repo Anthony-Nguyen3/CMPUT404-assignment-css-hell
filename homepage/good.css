@@ -1,11 +1,69 @@
 img {
     width: 10em;
+    margin-right: 3em;
+    border-radius: 50%;
+    border-style: outset;
 }
 
-.heading {
-    margin: auto;
+.flex-container {
     display: flex;
+}
+.heading {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     justify-content: center;
+    display: flex;
     text-align: center;
+    background-color: firebrick;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-bottom-style: ridge;
+}
+
+.section {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    flex: 1 1 auto;
+}
+
+.sidebar {
+    margin-top: 10px;
+    background-color: lightgray;
+    padding: 0em 1em 1em 1em;
+}
+.sidebar h3{
+    text-decoration: underline;
+    font-size: 150%;
+}
+
+.sidebar h4 {
+    font-size: 110%;
+}
+
+.about {
+    margin-bottom: 2em;
+}
+
+.history {
+    margin-bottom: 2em;
+}
+
+.time_period {
+    font-style: italic;
+    margin-bottom: 10em;
+}
+
+h2 {
+    font-size: 175%;
+    text-decoration: underline;
+}
+
+li {
+    font-size: 110%;
+}
+
+a {
+    color: blue;
 }
 
