@@ -4,7 +4,7 @@ body {
 }
 
 img {
-    width: 10em;
+    width: 15em;
     margin-right: 3em;
     padding: 5px 10px 5px 10px;
     background-color: #FFA977;
@@ -16,7 +16,6 @@ img {
 .heading {
     font-size: large;
     justify-content: center;
-    display: flex;
     text-align: center;
     background-color: pink;
     padding-top: 2em;
@@ -36,11 +35,14 @@ img {
 
 
 .section {
-    display: block;
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
     flex: 1 1 auto;
+}
+
+.section h3 {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .sidebar {
@@ -58,6 +60,10 @@ img {
     font-size: 110%;
 }
 
+.sidebar li {
+    color: rgb(75, 65, 216);
+}
+
 .about {
     margin-bottom: 2em;
 }
@@ -66,15 +72,12 @@ img {
     margin-bottom: 2em;
 }
 
-.time_period {
-    font-style: italic;
-    margin-bottom: 10em;
-}
-
 h2 {
     font-size: 175%;
     color: white;
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    background-color: #FFA977;
+    padding-left: 0.5em;
 }
 
 li {
