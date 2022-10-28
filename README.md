@@ -21,9 +21,9 @@ Linked each HTML file to the style.css file in the same directory. (link rel="st
 License/Copyright
 =================
 
-Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
+Textual content is copyright Abram Hindle (C) 2013, Anthony Nguyen (C) 2022 under the CC-BY-SA
 4.0 unported license. Attribution should be a hyperlink to the
-repository and (C) 2013 Abram Hindle visibile in the text.
+repository and (C) 2013 Abram Hindle, (C) 2022 Anthony Nguyen visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
