@@ -1,0 +1,92 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: #FFD2AA;
+}
+
+img {
+    width: 10em;
+    margin-right: 3em;
+    padding: 5px 10px 5px 10px;
+    background-color: #FFA977;
+}
+
+.flex-container {
+    display: flex;
+}
+.heading {
+    font-size: large;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    background-color: pink;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.header_text h1 {
+    color: white;
+    text-shadow: -3px 0 red, 0 3px red, 3px 0 red, 0 -3px red;
+}
+
+.header_text h3 {
+    color: white;
+    text-shadow: -3px 0 red, 0 3px red, 3px 0 red, 0 -3px red;
+}
+
+
+
+.section {
+    display: block;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex: 1 1 auto;
+}
+
+.sidebar {
+    text-align: center;
+    margin-top: 10px;
+    background-color: yellow;
+    padding: 0em 1em 1em 1em;
+}
+.sidebar h3{
+    text-decoration: underline;
+    font-size: 150%;
+}
+
+.sidebar h4 {
+    font-size: 110%;
+}
+
+.about {
+    margin-bottom: 2em;
+}
+
+.history {
+    margin-bottom: 2em;
+}
+
+.time_period {
+    font-style: italic;
+    margin-bottom: 10em;
+}
+
+h2 {
+    font-size: 175%;
+    color: white;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+li {
+    font-size: 110%;
+    
+}
+
+p {
+    font-size: 110%;
+}
+
+a {
+    color: blue;
+}
+
