@@ -1,0 +1,11 @@
+img {
+    width: 10em;
+}
+
+.heading {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
